@@ -9,7 +9,7 @@ const Card = props => {
         <div className="img-container">
           <img src={ /* image source goes here */props.card.img} />
         </div>
-        <span>By {/* author goes here */props.card.author}</span>
+        <span>By: {/* author goes here */props.card.author}</span>
       </div>
     </div>
   );
