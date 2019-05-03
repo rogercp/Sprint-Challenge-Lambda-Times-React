@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Card from './Card';
-import Proptypes from 'prop-types'
+import PropTypes from 'prop-types'
 
 const Cards = props => {
   return (
@@ -8,7 +8,7 @@ const Cards = props => {
       {/* Using the cards prop, map over the list creating a 
           new Card component for each passing the card as the only prop*/
           props.cards.map((card,i)=>(
-            <Card key={i} card={cards}/>
+            <Card key={i} card={card}/>
           ))
           }
     </div>
@@ -17,7 +17,7 @@ const Cards = props => {
 
 // Make sure you include prop types for all of your incoming props
 Cards.propTypes={
-  card:Proptypes.object
+  Cards:PropTypes.arrayOf(PropTypes.object)
 }
 
 
