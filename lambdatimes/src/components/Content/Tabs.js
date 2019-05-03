@@ -21,11 +21,17 @@ const Tabs = props => {
 
 // Make sure to use PropTypes to validate your types!
 
+// Tabs.propTypes={
+//   tabs:PropTypes.arrayOf(
+//    PropTypes.shape({tab:PropTypes.string}) 
+//   )
+// }
+
 Tabs.propTypes={
-  tabs:PropTypes.arrayOf(
-   PropTypes.shape({tab:PropTypes.string}) 
-  )
+  Tabs:PropTypes.array
+
 }
+
 
 
 
