@@ -4,7 +4,6 @@ import styled from 'styled-components'
 // You can find the corresponding CSS in the CSS/index.css file
 
 const TopBarie=styled.div`
-
   width: 100%;
   display: flex;
   justify-content: center;
@@ -33,7 +32,6 @@ const TopBarContainer=styled.div`
        
   `
 const ContainerLeft=styled.div`
-
   display: flex;
   justify-content: none;
   align-items: center;
@@ -49,7 +47,6 @@ const ContainerLeft=styled.div`
 
 `
 const ContainerCenter=styled.div`
-
   display: flex;
   justify-content: center;
   align-items: center;
